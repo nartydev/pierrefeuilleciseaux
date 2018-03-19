@@ -1,0 +1,81 @@
+body {
+    margin:0;
+    padding:0;
+    background:#27ae60;
+    font-family:"Chango";
+}
+
+* {
+    box-sizing:border-box;
+}
+
+.container {
+    width:960px;
+    display:flex;
+    justify-content:space-between;
+    margin-top:40px;
+}
+
+.me, .computer {
+    width:50%;
+    padding:20px;
+    text-align:center;
+}
+
+.text-center {
+    text-align:center;
+}
+
+.title {
+    text-transform:uppercase;
+    color:#fff;
+    font-size:42px;
+    margin-top:100px;
+}
+
+.heightImg {
+    height:300px;
+}
+
+.rock, .paper, .scissors {
+    width:252px;
+    height:252px;
+    background-position: center center;  
+    margin:40px auto;  
+}
+
+.rock {
+    background:url('./img/rock.png');
+}
+
+.paper {
+    background:url('./img/paper-plane.png');
+}
+
+.scissors {
+    background:url('./img/scissors.png');
+}
+
+.button-rock, .button-paper, .button-scissors {
+    color:#27ae60;
+    font-size:20px;
+    border-radius:5px;
+    background:#fff;
+    padding:10px 20px;
+    text-transform:uppercase;
+    margin-top:50px;
+    cursor:pointer;
+}
+
+.score {
+    color:#fff;
+    font-size:20px;
+    text-transform:uppercase;
+}
+
+.resultForMe {
+    text-transform:uppercase;
+    color:#fff;
+    margin-top: -136px;
+    font-size: 25px;
+}
